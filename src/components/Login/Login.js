@@ -11,7 +11,7 @@ const Login = () => {
                 <h3>Login To Facebook</h3>
                 <form>
                     <center>
-                        <input type="email" placeholder="Email Address" />
+                        <input type="email" placeholder="Email address or phone number" />
                     </center>
                     <center>
                         <input type="password" placeholder="Password" />
@@ -21,7 +21,7 @@ const Login = () => {
                     </center>
                     <center className="last-info">
                         <h5>Forgotten Password ?</h5>
-                        <h5 className="dot">.</h5>
+                        <h4 className="dot">.</h4>
                         <Link to="/register" style={{textDecoration: 'none'}}>
                             <h5 className="sign-up">Sign Up for Facebook</h5>
                         </Link>
